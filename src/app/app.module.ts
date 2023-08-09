@@ -8,6 +8,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { CardPlanComponent } from './components/card-plan/card-plan.component';
 import { ButtonAnimationComponent } from './components/button-animation/button-animation.component';
+import { ComponentsComponent } from './pages/home/components/components.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { ButtonAnimationComponent } from './components/button-animation/button-a
     HomeComponent,
     CardPlanComponent,
     ButtonAnimationComponent,
+    ComponentsComponent,
 
   ],
   imports: [
