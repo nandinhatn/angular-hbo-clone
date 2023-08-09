@@ -13,6 +13,12 @@ export class HomeComponent implements OnInit {
   pricePlan:string="R$ 74,90"
   @Input()
   dividePrice:string="Igual a R$ 24,97 por mês"
+  @Input()
+  economize:string=""
+  @Input()
+  title:string=""
+  @Input()
+  btnText:string=""
   ngOnInit(): void {
   
   }
