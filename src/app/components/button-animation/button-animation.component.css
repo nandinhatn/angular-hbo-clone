@@ -1,0 +1,25 @@
+button{
+
+    background: linear-gradient(249deg, rgba(178,9,241,1) 0%, rgba(99,21,194,1) 53%);
+    border-radius: 20px;
+    color: white;
+    letter-spacing: 1px;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    transition: background 2s, outline 1s, transform 1s;
+    font-size: 1.0rem;
+}
+button:hover{
+    background: rgba(178,9,241,0);
+    background-position: 200%;
+     outline:  2px solid #ff00e5;
+     transform: scale(1.05);
+
+}
+
+
+
+
+
